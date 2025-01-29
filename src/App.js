@@ -9,6 +9,7 @@ import './styled.css'
 
  export const App=()=> {
   return (
+
       <Routes>
         <Route path="/" element={<Shared/>} >
           <Route index element={<Home/>} />
